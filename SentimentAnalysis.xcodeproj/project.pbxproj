@@ -14,6 +14,7 @@
 		DF0095AC2B63B22400A86DF4 /* SentimentAnalysisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0095AB2B63B22400A86DF4 /* SentimentAnalysisTests.swift */; };
 		DF0095B62B63B22400A86DF4 /* SentimentAnalysisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0095B52B63B22400A86DF4 /* SentimentAnalysisUITests.swift */; };
 		DF0095B82B63B22400A86DF4 /* SentimentAnalysisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0095B72B63B22400A86DF4 /* SentimentAnalysisUITestsLaunchTests.swift */; };
+		DF0095C52B63BA8500A86DF4 /* SentimentAnalyse 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DF0095C42B63BA8400A86DF4 /* SentimentAnalyse 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DF0095B12B63B22400A86DF4 /* SentimentAnalysisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentimentAnalysisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0095B52B63B22400A86DF4 /* SentimentAnalysisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentAnalysisUITests.swift; sourceTree = "<group>"; };
 		DF0095B72B63B22400A86DF4 /* SentimentAnalysisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentAnalysisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF0095C42B63BA8400A86DF4 /* SentimentAnalyse 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "SentimentAnalyse 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		DF00958E2B63B22100A86DF4 = {
 			isa = PBXGroup;
 			children = (
+				DF0095C42B63BA8400A86DF4 /* SentimentAnalyse 1.mlmodel */,
 				DF0095992B63B22200A86DF4 /* SentimentAnalysis */,
 				DF0095AA2B63B22400A86DF4 /* SentimentAnalysisTests */,
 				DF0095B42B63B22400A86DF4 /* SentimentAnalysisUITests */,
@@ -259,6 +262,7 @@
 			files = (
 				DF00959D2B63B22200A86DF4 /* ContentView.swift in Sources */,
 				DF00959B2B63B22200A86DF4 /* SentimentAnalysisApp.swift in Sources */,
+				DF0095C52B63BA8500A86DF4 /* SentimentAnalyse 1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
